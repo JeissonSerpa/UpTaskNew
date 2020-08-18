@@ -13,7 +13,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
-  font-size: 62.5%; 
+  font-size: 56%; 
 }
 body {
   min-height: 100%;
@@ -249,12 +249,14 @@ aside  {
 }
 .completo,
 .correcto {
-  background-color: rgba(154, 252, 154, .3);
-  color: var(--gris3);
+  background-color: rgba(154, 252, 154, .35);
+  color: #008f26;
+  width: 90px;
 }
 .incompleto{
-  background-color: rgba(255, 178, 178, .4);
-  color: var(--gris3);
+  background-color: rgba(255, 178, 178, .6);
+  color: #ff295b;
+  width: 90px;
 }
 .error {
   max-width: 600px;
